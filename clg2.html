@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    tr,td{
+        padding: 5px;
+    }
+    .top{
+        border: 1px;
+        background-color: rgba(137, 43, 226, 0.767);
+    }
+    .left{
+        
+        float: left;
+    }
+    .sub_container{
+        float: right;
+    }
+
+</style>
+</head>
+<body>
+    <div class="top" >
+        <table>
+            <tr>
+                <td>
+                <img src="amaljyothi.png" alt="logo" height="60px" style="margin-left: 2%;">
+            </td>
+            <td>
+                <img src="user.png" alt="logo" height="60px" style="margin-left: 750px;">
+            </td>
+            <td>
+
+            </td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="left">
+    <table>
+        <tr>
+            <img src="leftuser.png.crdownload" alt="" width="50px" style="padding-top: 5px; padding-left: 15px;">
+        </tr>
+    </table>    
+    </div>
+    <div class="maincontainer">
+        
+        <div class="sub_container">
+            <table>
+               
+                <tr >
+                    <td>Application No</td>
+                    <td style="padding-left: 50px;">17585</td>  
+                </tr>
+                    
+                <tr style="padding: 5px;">
+                    
+                    <td style="margin:100px">Name</td>
+
+                    <td style="padding-left: 50px;"><input type="text" ></td>
+
+                    <td style="padding-left: 50px; padding-left: 300px; ">Date of Birth</td>
+                    <td style="padding-left: 50px;"><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Religion</td>
+                    <td style="padding-left: 50px;">
+                     <select style="width:100%">
+                        <option value="">Select</option>
+                        <option value="1">christian</option>
+                        <option value="2">Hindu</option>
+                        <option value="3">Muslim</option>
+                    </select>
+                    </td>
+
+                    <td style="padding-left: 50px; padding-left: 300px;">Caste</td>
+                    <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Categories</label></td>
+                    <td style="padding-left: 50px;"> <select style="width:100%">
+                        <option value="">Select</option>
+                        <option value="1">General</option>
+                        <option value="2">OBC</option>
+                        <option value="3">SC/ST</option>
+                    </select>
+                </td>
+
+                <td style="padding-left: 50px; padding-left: 300px;">Nationality</td>
+                <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="">Gender</label></td>
+                    <td style="padding-left: 50px;"> <select style="width:100%">
+                        <option value="">Select</option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                        <option value="3">Others</option>
+                    </select>
+                    </td>
+                    <td style="padding-left: 50px; padding-left: 300px;">School/college Last Attended</td>
+                    <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+            </table>
+            <hr>
+
+
+
+
+
+            <table>
+                <tr >
+                    <td>PermanentAddress</td>
+                    <td>Address for communication</td>
+                </tr>
+                    
+                <tr style="padding: 5px;">
+                    
+                    <td style="margin:100px">Addressline1</td>
+
+                    <td style="padding-left: 50px;"><input type="text" ></td>
+
+                    <td style="padding-left: 50px; padding-left: 300px; ">Same as PermanentAddress</td>
+                    <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Addressline2</td>
+                    <td style="padding-left: 50px;">
+                     <input type="text">
+                    </td>
+
+                    <td style="padding-left: 50px; padding-left: 300px;">Addressline2</td>
+                    <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>AddressLine3</td>
+                    <td style="padding-left: 50px;"> <input type="text">
+                </td>
+
+                <td style="padding-left: 50px; padding-left: 300px;">AddressLine3</td>
+                <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>pincode</td>
+                    <td style="padding-left: 50px;"> <input type="text">
+                    </td>
+                    <td style="padding-left: 50px; padding-left: 300px;">pincode</td>
+                    <td style="padding-left: 50px;"><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>State<span style="color:red"> *</span></td>
+                    <td style="padding-left: 50px; ;"><select  name="sta" id="State" style="width:177px;">
+                        <option value=""></option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Tamilnadu">Tamilnadu</option>
+                        <option value="Others">Others</option>
+                    </select></td>
+                    <td style="padding-left: 300px;">State<span style="color:red"> *</span></td>
+                    <td style="padding-left: 50px;"><select name="sta" id="State" style="width:177px;">
+                        <option value=""></option>
+                        <option value="Kerala">Kerala</option>
+                        <option value="Tamilnadu">Tamilnadu</option>
+                        <option value="Others">Others</option>
+                    </select></td>
+                    
+                </tr>
+                <tr>
+                    <td>District<span style="color:red"> *</span></td>
+                    <td style="padding-left: 50px;"><select name="dis" id="District" style="width:177px;">
+                        <option value=""></option>
+                        <option value="Kottayam">Kottayam</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Theni">Theni</option>
+                        <option value="Cambham">Cambham</option>
+                        <option value="Others">Others</option>
+                    </select></td>
+                    <td style="padding-left: 300px;">District<span style="color:red"> *</span></td>
+                    <td style="padding-left: 50px;"><select name="dis" id="District" style="width:177px;">
+                        <option value=""></option>
+                        <option value="Kottayam">Kottayam</option>
+                        <option value="Ernakulam">Ernakulam</option>
+                        <option value="Theni">Theni</option>
+                        <option value="Cambham">Cambham</option>
+                        <option value="Others">Others</option>
+                    </select></td>
+                    </tr>
+            </table>
+            <hr>
+            <table>
+                
+            </table>
+            
+            <table>
+                <tr>
+                    <td>Telephone no.<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Place of Birth<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    
+                </tr>
+            </table>
+            <hr>
+            <table>
+                <tr>
+                    <td>Father's name<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Occupation<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Mother's name<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Occupation<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Father's Contact number<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Mother's Contact number<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Name of Local Guardian<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Relation with the applicant<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Local Guardian Contact no.<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Annual Income<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Adhar number<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                    <td style="padding-left: 300px;">Blood Group<span style="color:red"> *</span></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Photo (Max 250 kb)<span style="color:red"> *</span></td>
+                    <td><input type="file"></td>
+                    <td style="padding-left: 300px;">Signature (Max 100 kb)<span style="color:red"> *</span></td>
+                    <td><input type="file"></td>
+                </tr>
+            </table>
+            <hr>
+            <button style="background-color:rgb(57, 235, 226);margin-left:28%; border-radius: 5px; border: 1ch;">SAVE</button>
+            <button style="background-color:rgb(48, 223, 56);margin-left:2%;border-radius: 5px; border: 1ch;">NEXT</button>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+</html>
